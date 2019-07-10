@@ -49,7 +49,7 @@
       "answer": "School of Computer Science and Engineering"
     },
     {
-      "question": "List the 7 colours of the rainbow.",
+      "question": "List the 7 colours of the rainbow in sequence.",
       "answer": "Red, Orange, Yellow, Green, Blue, Indigo, Violet"
     },
     {
@@ -137,7 +137,7 @@
       "answer": "Compact Disc"
     },
     {
-      "question": "The mitochondria is the ____ of the cell.",
+      "question": "The mitochondria is the _____ of the cell.",
       "answer": "powerhouse"
     },
     {
@@ -177,16 +177,12 @@
          "answer":"Nexus / WorldWideWeb"
       },
       {  
-         "question":"Is JavaScript based on Java?",
-         "answer":"No"
+         "question":"What kind of language is HTML?",
+         "answer":"Markup language"
       },
-      {  
-         "question":"Is HTML a programming language?",
-         "answer":"No, it's a markup language"
-      },
-      {  
-         "question":"Is Android an operating system?",
-         "answer":"Yes"
+      {
+         "question":"What is Android?",
+         "answer":"A mobile operating system"
       },
       {  
          "question":"Mac operating system is developed by which company?",
@@ -201,62 +197,42 @@
          "answer":"Yes"
       },
       {
-         "question":"Is HTTP a programming language?",
-         "answer":"No it is a protocol"
-      },
-      {  
          "question":"Can a computer run without RAM?",
          "answer":"No it will fail at BIOS"
       },
-      {  
+      {
          "question":"Which number system does a computer use to store data?",
          "answer":"Binary"
       },
       {  
          "question":"How many function keys does a computer keyboard have?",
-         "answer":"F1-12 total 12 keys"
+         "answer":"12 keys (F1-12)"
       },
-      {  
-         "question":"Is the mouse an input device?",
-         "answer":"Yes"
-      },
-      {  
+      {
          "question":"Which web browser is developed by Google?",
          "answer":"Chrome"
       },
-      {  
+      {
          "question":"Mark Zuckerberg is the owner of which social media platform?",
          "answer":"Facebook"
       },
-      {  
-         "question":"A hyperlink is a text connected to a webpage. True or False?",
-         "answer":"True"
-      },
-      {  
+      {
          "question":"What does GUI stand for in software context?",
          "answer":"Graphical User Interface"
       },
-      {  
+      {
          "question":"What does WWW stand for?",
          "answer":"World Wide Web"
       },
-      {  
+      {
          "question":"What does USB stand for?",
          "answer":"Universal Serial Bus"
       },
-      {  
+      {
          "question":"What type of software protects users from computer viruses?",
          "answer":"Antivirus software"
       },
-      {  
-         "question":"A computer cannot boot if it does not have an operating system. True or false?",
-         "answer":"True"
-      },
-      {  
-         "question":"Is a smart phone a computer?",
-         "answer":"Yes"
-      },
-      {  
+      {
          "question":"Which manufacturer introduced emoji into their software?",
          "answer":"Apple"
       },
@@ -273,7 +249,7 @@
          "answer":"Australia"
       },
       {  
-         "question":"What is the bottom colour in a rainbow?",
+         "question":"What is the bottommost colour in a rainbow?",
          "answer":"Violet"
       },
       {  
@@ -631,6 +607,26 @@
       {
          "question":"Which bird flies the fastest?",
          "answer": "Peregrine falcon"
+      },
+      {
+         "question":"How many member states are there in the United Nations?",
+         "answer": "193"
+      },
+      {
+         "question":"How many member states does ASEAN have?",
+         "answer": "10"
+      },
+      {
+         "question":"What is the largest dollar note in Singapore currency?",
+         "answer": "$10,000"
+      },
+      {
+         "question":"Where is Singapore Island located geographically?",
+         "answer": "United Arab Emirates (makes up The World archipelago)"
+      },
+      {
+         "question":"What timezone does Singapore follow?",
+         "answer": "GMT +08:00"
       }
   ]
 }
