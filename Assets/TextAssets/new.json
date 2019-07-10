@@ -1,0 +1,404 @@
+﻿{
+  "questions": [
+    {
+      "question": "What does NTU stand for?",
+      "answer": "Nanyang Technological University"
+    },
+    {
+      "question": "What color are aircraft blackboxes?",
+      "answer": "Bright orange"
+    },
+    {
+      "question": "Is taco a Mexican dish?",
+      "answer": "Yes"
+    },
+    {
+      "question": "2 x 20",
+      "answer": 40
+    },
+    {
+      "question": "What do honey bees collect?",
+      "answer": "Pollen and nectar"
+    },
+    {
+      "question": "Which year NTU was formed",
+      "answer": "1991"
+    },
+    {
+      "question": "If there are 14 boysenberries, 7 papayas and 19 passion fruits how many fruits are there?",
+      "answer": 40
+    },
+    {
+      "question": "Name the biggest organ that a human have",
+      "answer": "Skin"
+    },
+    {
+      "question": "If Timothy have 19 kiwis but ate 18 kiwis. How many Timothy are left?",
+      "answer": 1
+    },
+    {
+      "question": "If there are 19 boysenberries, 8 clementines and 18 cantaloupes how many rubber duckies are there?",
+      "answer": 0
+    },
+    {
+      "question": "16 x 4",
+      "answer": 64
+    },
+    {
+      "question": "What does SCSE stand for?",
+      "answer": "School of Computer Science and Engineering"
+    },
+    {
+      "question": "4 - 19",
+      "answer": -15
+    },
+    {
+      "question": "What is the name of a DVD",
+      "answer": "Digital Versatile Disk"
+    },
+    {
+      "question": "If there are 10 jujubes and 19 apricots how many fruits are there?",
+      "answer": 29
+    },
+    {
+      "question": "How many residential halls are there in NTU?",
+      "answer": "24"
+    },
+    {
+      "question": "Name the largest ocean in the world",
+      "answer": "Pacific ocean"
+    },
+    {
+      "question": "16 x 8",
+      "answer": 128
+    },
+    {
+      "question": "If there are 10 honeydews and 6 papayas how many papayas are there?",
+      "answer": 6
+    },
+    {
+      "question": "If there are 6 starfruits, 18 papayas and 15 grapefruits how many papayas are there?",
+      "answer": 18
+    },
+    {
+      "question": "If there are 18 honeydews and 7 apricots how many apricots are there?",
+      "answer": 7
+    },
+    {
+      "question": "Which nail grows fastest?",
+      "answer": "Third finger"
+    },
+    {
+      "question": "If there are 13 kiwis, 13 plums and 2 cantaloupes how many plums are there?",
+      "answer": 13
+    },
+    {
+      "question": "If there are 14 guavas, 14 cherries and 13 passion fruits how many fruits are there?",
+      "answer": 41
+    },
+    {
+      "question": "18 - 11",
+      "answer": 7
+    },
+    {
+      "question": "20 + 19",
+      "answer": 39
+    },
+    {
+      "question": "1 + 12",
+      "answer": 13
+    },
+    {
+      "question": "What the newest residential halls in NTU?",
+      "answer": "Saraca, Tamaring and Meranti halls"
+    },
+    {
+      "question": "13 + 13",
+      "answer": 26
+    },
+    {
+      "question": "If Timothy have 13 kiwis but gave 13 kiwis away. How many kiwis are left?",
+      "answer": 0
+    },
+    {
+      "question": "If Ken have 8 avocados but ate 3 avocados. How many avocados are left?",
+      "answer": 5
+    },
+    {
+      "question": "What temperature does water boil at?",
+      "answer": "100C"
+    },
+    {
+      "question": "If there are 15 guavas and 7 bananas how many guavas are there?",
+      "answer": 15
+    },
+    {
+      "question": "If there are 19 grapes, 8 tomatos and 3 mangos how many fruits are there?",
+      "answer": 30
+    },
+    {
+      "question": "If there are 11 huckleberries and 7 cherries how many fruits are there?",
+      "answer": 18
+    },
+    {
+      "question": "Who wrote Julius Caesar, Macbeth and Hamlet? ",
+      "answer": "Shakespeare"
+    },
+    {
+      "question": "If Senpai have 6 honeydews but lost 4 honeydews. How many honeydews are left?",
+      "answer": 2
+    },
+    {
+      "question": "If there are 18 lemons, 16 tomatos and 9 grapefruits how many grapefruits are there?",
+      "answer": 9
+    },
+    {
+      "question": "If Tom have 20 pineapples but gave 19 pineapples away. How many pineapples are left?",
+      "answer": 1
+    },
+    {
+      "question": "If there are 18 huckleberries, 13 cherries and 5 cantaloupes how many fruits are there?",
+      "answer": 36
+    },
+    {
+      "question": "If there are 13 avocados, 2 tomatos and 12 grapefruits how many avocados are there?",
+      "answer": 13
+    },
+    {
+      "question": "1 + 8",
+      "answer": 9
+    },
+    {
+      "question": "9 + 17",
+      "answer": 26
+    },
+    {
+      "question": "10 + 16",
+      "answer": 26
+    },
+    {
+      "question": "Solar power generates electricity from what source?",
+      "answer": "Light"
+    },
+    {
+      "question": "Are Firefox, Opera, Chrome, Safari and Internet Explorer Web browsers?",
+      "answer": "True"
+    },
+    {
+      "question": "If Ken have 9 starfruits but ate 7 starfruits. How many Ken are left?",
+      "answer": 1
+    },
+    {
+      "question": "Who founded Microsoft?",
+      "answer": "Bill Gates"
+    },
+    {
+      "question": "If there are 12 cars and 19 books how many grapes are there?",
+      "answer": 0
+    },
+    {
+      "question": "If there are 6 jujubes and 3 clementines how many rubber duckies are there?",
+      "answer": 0
+    },
+    {
+      "question": "If there are 12 honeydews and 16 cherries how many honeydews are there?",
+      "answer": 12
+    },
+    {
+      "question": "If there are 5 starfruits and 16 cherries how many cherries are there?",
+      "answer": 16
+    },
+    {
+      "question": "15 + 15",
+      "answer": 30
+    },
+    {
+      "question": "If Lynn have 5 boysenberries but ate 2 boysenberries. How many rubber duckies are left?",
+      "answer": 0
+    },
+    {
+      "question": "If there are 4 starfruits, 18 plums and 19 watermelons how many plums are there?",
+      "answer": 18
+    },
+    {
+      "question": "If there are 9 grapes, 2 papayas and 8 mangos how many grapes are there?",
+      "answer": 9
+    },
+    {
+      "question": "Which is the only mammal that can’t jump?",
+      "answer": "Elephant"
+    },
+    {
+      "question": "10 - 6",
+      "answer": 4
+    },
+    {
+      "question": "18 x 7",
+      "answer": 126
+    },
+    {
+      "question": "If there are 9 jujubes and 9 bananas how many satsumas are there?",
+      "answer": 0
+    },
+    {
+      "question": "2 + 15",
+      "answer": 17
+    },
+    {
+      "question": "If there are 14 pineapples and 14 clementines how many mangos are there?",
+      "answer": 0
+    },
+    {
+      "question": "If Evelyn have 4 starfruits but ate 0 starfruits. How many Evelyn are left?",
+      "answer": 1
+    },
+    {
+      "question": "18 + 8",
+      "answer": 26
+    },
+    {
+      "question": "10 + 9",
+      "answer": 19
+    },
+    {
+      "question": "1 x 5",
+      "answer": 5
+    },
+    {
+      "question": "What colour is a panda? ",
+      "answer": "black and white"
+    },
+    {
+      "question": "If there are 14 boots, 16 teletubbies and 6 boots how many jujubes are there?",
+      "answer": 0
+    },
+    {
+      "question": "If there are 14 huckleberries, 5 bananas and 6 mangos how many mangos are there?",
+      "answer": 6
+    },
+    {
+      "question": "How many dots are there on a general six sided dice? ",
+      "answer": "21"
+    },
+    {
+      "question": "If there are 7 pens, 10 crabs and 20 crabs how many lemons are there?",
+      "answer": 0
+    },
+    {
+      "question": "If James have 8 huckleberries but ate 8 huckleberries. How many huckleberries are left?",
+      "answer": 0
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Da Vinci"
+    },
+    {
+      "question": "If there are 10 boots and 12 boots how many honeydews are there?",
+      "answer": 0
+    },
+    {
+      "question": "10 - 10",
+      "answer": 0
+    },
+    {
+      "question": "6 x 3",
+      "answer": 18
+    },
+    {
+      "question": "If there are 11 boots, 18 pizzas and 15 cars how many kiwis are there?",
+      "answer": 0
+    },
+    {
+      "question": "If there are 19 cars, 13 taxis and 4 taxis how many huckleberries are there?",
+      "answer": 0
+    },
+    {
+      "question": "10 - 15",
+      "answer": -5
+    },
+    {
+      "question": "If Evelyn have 11 honeydews but gave 8 honeydews away. How many honeydews are left?",
+      "answer": 3
+    },
+    {
+      "question": "If there are 20 huckleberries and 8 apricots how many apricots are there?",
+      "answer": 8
+    },
+    {
+      "question": "If there are 11 pineapples, 7 tomatos and 19 pears how many pears are there?",
+      "answer": 19
+    },
+    {
+      "question": "If Eve have 17 avocados but ate 17 avocados. How many Eve are left?",
+      "answer": 1
+    },
+    {
+      "question": "If there are 6 crabs, 17 pants and 12 teletubbies how many starfruits are there?",
+      "answer": 0
+    },
+    {
+      "question": "13 - 12",
+      "answer": 1
+    },
+    {
+      "question": "If there are 17 guavas and 4 clementines how many mangos are there?",
+      "answer": 0
+    },
+    {
+      "question": "If there are 3 pineapples and 16 tomatos how many fruits are there?",
+      "answer": 19
+    },
+    {
+      "question": "7 x 15",
+      "answer": 105
+    },
+    {
+      "question": "Is a computer without a keyboard still a computer?",
+      "answer": "Yes"
+    },
+    {
+      "question": "How much is the Apple Pro Stand?",
+      "answer": "$999 USD"
+    },
+    {
+      "question": "If Ken have 17 avocados but lost 13 avocados. How many avocados are left?",
+      "answer": 4
+    },
+    {
+      "question": "What does CD stand for?",
+      "answer": "Compact Disc"
+    },
+    {
+      "question": "If there are 9 jujubes and 6 bananas how many mangos are there?",
+      "answer": 0
+    },
+    {
+      "question": "If there are 15 books, 14 pants and 9 pants how many kiwis are there?",
+      "answer": 0
+    },
+    {
+      "question": "Does Pizza hut sells pizza",
+      "answer": "Yes"
+    },
+    {
+      "question": "19 + 13",
+      "answer": 32
+    },
+    {
+      "question": "If there are 20 huckleberries and 20 apricots how many peaches are there?",
+      "answer": 0
+    },
+    {
+      "question": "If Senpai have 13 guavas but ate 10 guavas. How many guavas are left?",
+      "answer": 3
+    },
+    {
+      "question": "If Ken have 16 guavas but gave 4 guavas away. How many guavas are left?",
+      "answer": 12
+    },
+    {
+      "question": "If there are 2 lemons and 20 oranges how many lemons are there?",
+      "answer": 2
+    }
+  ]
+}

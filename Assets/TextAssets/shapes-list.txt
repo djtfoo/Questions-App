@@ -1,0 +1,14 @@
+triangles,3
+quadrilaterals,4
+squares,4
+trapeziums,4
+pentagons,5
+hexagons,6
+heptagons,7
+octagons,8
+nonagons,9
+decagons,10
+lines,1
+stars,10
+rectangles,4
+parallelograms,4
