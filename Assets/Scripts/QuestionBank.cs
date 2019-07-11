@@ -24,10 +24,6 @@ public class QuestionBank : MonoBehaviour {
 	[SerializeField]
 	private TextAsset jsonQuestions;
 
-    [SerializeField]
-    private Text questionCountText;
-    private int questionCount = 0;
-
 	// Use this for initialization
 	void Awake() {
 		questionsList = JsonUtility.FromJson<QuestionsList>(jsonQuestions.text);
@@ -43,8 +39,7 @@ public class QuestionBank : MonoBehaviour {
 	}
 
 	public Question GetQuestion() {
-
-        UpdateCount();
+        
         int randomType = Random.Range(0, (int)QuestionType.Types_Total);
         QuestionType qnType = (QuestionType)randomType;
         //QuestionType qnType = QuestionType.Type_MentalSums;
@@ -73,10 +68,4 @@ public class QuestionBank : MonoBehaviour {
                 return new Question("", "");
         }
 	}
-
-    private void UpdateCount() {
-        questionCount++;
-        if (questionCountText)
-            questionCountText.text = questionCount.ToString();
-    }
 }

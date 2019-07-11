@@ -17,12 +17,19 @@ public class ChemicalSymbolGenerator : QuestionGenerator {
         elementSymbolsList = new List<string>();
 
         ReadCSV();
-        //GenerateQuestion();
+        InitAvailableInt(elementNamesList.Count);
 	}
 	
     public override Question GenerateQuestion() {
 		
-        int randomIdx = Random.Range(0, elementNamesList.Count);
+        //int randomIdx = Random.Range(0, elementNamesList.Count);
+        int randomIdx = GetRandomIdx();
+        if (randomIdx == -1)    // no more available questions
+        {
+            InitAvailableInt(elementNamesList.Count);
+            randomIdx = GetRandomIdx();
+        }
+
         string question = "What is the chemical symbol of ";
         question += elementNamesList[randomIdx] + "?";
         string answer = elementSymbolsList[randomIdx];

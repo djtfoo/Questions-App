@@ -549,7 +549,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jsonQuestions: {fileID: 4900000, guid: e1610bd9af1c5124f97585e0930e9a5f, type: 3}
-  questionCountText: {fileID: 1464407597}
 --- !u!4 &1431714637
 Transform:
   m_ObjectHideFlags: 0
@@ -963,6 +962,7 @@ MonoBehaviour:
   questionText: {fileID: 540536587}
   answerText: {fileID: 1339869547}
   qns: {fileID: 1431714636}
+  questionCountText: {fileID: 1464407597}
 --- !u!1 &1895588710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,7 +1030,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Random Question
+  m_Text: Next Question
 --- !u!222 &1895588713
 CanvasRenderer:
   m_ObjectHideFlags: 0

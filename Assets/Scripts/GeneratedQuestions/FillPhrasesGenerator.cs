@@ -17,13 +17,19 @@ public class FillPhrasesGenerator : QuestionGenerator {
         answersList = new List<string>();
 
         ReadCSV();
-        //GenerateQuestion();
+        InitAvailableInt(phrasesList.Count);
     }
 
     public override Question GenerateQuestion() {
 
-        int randomIdx = Random.Range(0, phrasesList.Count);
-
+        //int randomIdx = Random.Range(0, phrasesList.Count);
+        int randomIdx = GetRandomIdx();
+        if (randomIdx == -1)    // no more available questions
+        {
+            InitAvailableInt(phrasesList.Count);
+            randomIdx = GetRandomIdx();
+        }
+        
         //Debug.Log(question);
         //Debug.Log("Answer: " + answer);
 

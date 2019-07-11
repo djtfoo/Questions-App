@@ -17,13 +17,19 @@ public class TriviaQuestions : QuestionGenerator {
         answersList = new List<string>();
 
         ReadCSV();
-        //GenerateQuestion();
+        InitAvailableInt(questionsList.Count);
     }
 
     public override Question GenerateQuestion() {
 
-        int randomIdx = Random.Range(0, questionsList.Count);
-
+        //int randomIdx = Random.Range(0, questionsList.Count);
+        int randomIdx = GetRandomIdx();
+        if (randomIdx == -1)    // no more available questions
+        {
+            InitAvailableInt(questionsList.Count);
+            randomIdx = GetRandomIdx();
+        }
+        
         //Debug.Log(question);
         //Debug.Log("Answer: " + answer);
 

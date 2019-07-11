@@ -17,13 +17,19 @@ public class VocabGenerator : QuestionGenerator {
         answersList = new List<string>();
 
         ReadCSV();
-        //GenerateQuestion();
+        InitAvailableInt(vocabList.Count);
     }
 
     public override Question GenerateQuestion() {
 
-        int randomIdx = Random.Range(0, vocabList.Count);
-
+        //int randomIdx = Random.Range(0, vocabList.Count);
+        int randomIdx = GetRandomIdx();
+        if (randomIdx == -1)    // no more available questions
+        {
+            InitAvailableInt(vocabList.Count);
+            randomIdx = GetRandomIdx();
+        }
+        
         //Debug.Log(question);
         //Debug.Log("Answer: " + answer);
 

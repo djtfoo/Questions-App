@@ -17,12 +17,19 @@ public class AcronymGenerator : QuestionGenerator {
         acronymMeaningsList = new List<string>();
 		
         ReadCSV();
-        //GenerateQuestion();
+        InitAvailableInt(acronymsList.Count);
 	}
 
     public override Question GenerateQuestion() {
 
-        int randomIdx = Random.Range(0, acronymsList.Count);
+        //int randomIdx = Random.Range(0, acronymsList.Count);
+        int randomIdx = GetRandomIdx();
+        if (randomIdx == -1)    // no more available questions
+        {
+            InitAvailableInt(acronymsList.Count);
+            randomIdx = GetRandomIdx();
+        }
+
         string question = "What does ";
         question += acronymsList[randomIdx] + " stand for?";
         string answer = acronymMeaningsList[randomIdx];

@@ -9,6 +9,10 @@ public class DisplayQuestion : MonoBehaviour {
 	public Text answerText;
 	public QuestionBank qns;
 
+    [SerializeField]
+    private Text questionCountText;
+    private int questionCount = 0;
+
 	// Use this for initialization
 	void Start () {
 		ShowQuestion();
@@ -20,8 +24,18 @@ public class DisplayQuestion : MonoBehaviour {
 	}
 
 	public void ShowQuestion() {
-		Question q = qns.GetQuestion();
-		questionText.text = q.question;
-		answerText.text = q.answer;
-	}
+        Question q = qns.GetQuestion();
+        if (q != null)
+        {
+            UpdateCount();
+            questionText.text = q.question;
+            answerText.text = q.answer;
+        }
+    }
+
+    private void UpdateCount() {
+        questionCount++;
+        if (questionCountText)
+            questionCountText.text = questionCount.ToString();
+    }
 }
