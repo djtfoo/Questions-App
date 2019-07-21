@@ -24,7 +24,7 @@ public class DisplayQuestion : MonoBehaviour {
 	}
 
 	public void ShowQuestion() {
-        Question q = qns.GetQuestion();
+        Question q = qns.GenerateQuestion();
         if (q != null)
         {
             UpdateCount();

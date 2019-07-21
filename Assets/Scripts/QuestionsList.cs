@@ -5,5 +5,10 @@ using UnityEngine;
 [System.Serializable]
 public class QuestionsList {
 	
-	public Question[] questions;
+	public List<Question> questions;
+
+    public QuestionsList()
+    {
+        questions = new List<Question>();
+    }
 }

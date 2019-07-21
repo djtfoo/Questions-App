@@ -187,6 +187,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2077770728}
   - component: {fileID: 2077770727}
+  - component: {fileID: 2077770730}
+  - component: {fileID: 2077770729}
   m_Layer: 0
   m_Name: ProcessTheDamnShit
   m_TagString: Untagged
@@ -200,12 +202,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2077770726}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d09cf75cf0aa8ca48b93f9033f6f993e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  file: {fileID: 4900000, guid: 88391d389316ac74d89b4b8fbb1b27fb, type: 3}
+  file: {fileID: 4900000, guid: a30f9408349ac974682ede07a1886df6, type: 3}
 --- !u!4 &2077770728
 Transform:
   m_ObjectHideFlags: 0
@@ -219,3 +221,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2077770729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2077770726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a04765d5f8cef0428103a319c33a0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  file: {fileID: 4900000, guid: 88c0ad05bb1ef064198d6a672b92e2db, type: 3}
+--- !u!114 &2077770730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2077770726}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54b83b624e45b7e4f9bcb4cb31e60c76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  file: {fileID: 4900000, guid: 16f8b331c09a74f49b20b28ddaa367fc, type: 3}

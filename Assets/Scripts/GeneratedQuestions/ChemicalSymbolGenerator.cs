@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class ChemicalSymbolGenerator : QuestionGenerator {
 
@@ -42,14 +43,25 @@ public class ChemicalSymbolGenerator : QuestionGenerator {
 
     private void ReadCSV() {
 
+        QuestionsList questionsList = new QuestionsList();
+
         string[,] arr = CSVReader.GetCSVGridString(elementsListFile.text);
         for (int i = 0; i < arr.GetLength(0); i++) {
             string element = arr[i,0];
-            if (element == "")
+            if (element == "" || element == null)
                 continue;
-            string symbol = arr[i,1];
+            string symbol = arr[i,1].Replace("\r", "");
             elementNamesList.Add(element);
             elementSymbolsList.Add(symbol);
+
+            questionsList.questions.Add(new Question(element, symbol));
         }
+
+        // write to JSON
+        string jsonString = JsonUtility.ToJson(questionsList);
+
+        StreamWriter outStream = System.IO.File.CreateText(Application.dataPath + "/TextAssets/Chem-Elements.json");
+        outStream.WriteLine(jsonString);
+        outStream.Close();
     }
 }

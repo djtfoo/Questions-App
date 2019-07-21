@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class AcronymGenerator : QuestionGenerator {
 
@@ -40,16 +41,33 @@ public class AcronymGenerator : QuestionGenerator {
         return new Question(question, answer);
     }
 
+    private string GenerateQuestionString(string fill)
+    {
+        string question = "What does " + fill + " stand for?";
+        return question;
+    }
+
     private void ReadCSV() {
+
+        QuestionsList questionsList = new QuestionsList();
 
         string[,] arr = CSVReader.GetCSVGridString(file.text);
         for (int i = 0; i < arr.GetLength(0); i++) {
             string acronym = arr[i,0];
             if (acronym == "" || acronym == null)
                 continue;
-            string meaning = arr[i,1];
+            string meaning = arr[i,1].Replace("\r", "");
             acronymsList.Add(acronym);
             acronymMeaningsList.Add(meaning);
+
+            questionsList.questions.Add(new Question(GenerateQuestionString(acronym), meaning));
         }
+
+        // write to JSON
+        string jsonString = JsonUtility.ToJson(questionsList);
+
+        StreamWriter outStream = System.IO.File.CreateText(Application.dataPath + "/TextAssets/Acronyms.json");
+        outStream.WriteLine(jsonString);
+        outStream.Close();
     }
 }

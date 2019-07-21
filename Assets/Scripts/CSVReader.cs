@@ -48,7 +48,7 @@ public static class CSVReader {
 
     public static string[] GetCSVLines(string text) {
 
-        string[] lines = text.Split("\n"[0]);
+        string[] lines = text.Split("\n|\r|\r\n"[0]);
 
         return lines;
     }

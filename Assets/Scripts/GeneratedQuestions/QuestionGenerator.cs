@@ -16,7 +16,13 @@ public abstract class QuestionGenerator : MonoBehaviour {
 
         if (availableInt.Count == 0)
             return -1;  // no more indexes available
-        return availableInt[Random.Range(0, availableInt.Count)];
+
+        // get random index
+        int randomIdx = availableInt[Random.Range(0, availableInt.Count)];
+        // remove from List
+        availableInt.Remove(randomIdx);
+
+        return randomIdx;
     }
 
     public abstract Question GenerateQuestion();

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class FillPhrasesGenerator : QuestionGenerator {
     
@@ -38,16 +39,33 @@ public class FillPhrasesGenerator : QuestionGenerator {
         return new Question(question, answersList[randomIdx]);
     }
 
+    private string GenerateQuestionString(string fill)
+    {
+        string question = "Complete the phrase:\n" + fill;
+        return question;
+    }
+
     private void ReadCSV() {
+
+        QuestionsList questionsList = new QuestionsList();
 
         string[,] arr = CSVReader.GetCSVGridString(file.text, ";");
         for (int i = 0; i < arr.GetLength(0); i++) {
             string phrase = arr[i,0];
             if (phrase == "" || phrase == null)
                 continue;
-            string answer = arr[i,1];
+            string answer = arr[i,1].Replace("\r", "");
             phrasesList.Add(phrase);
             answersList.Add(answer);
+
+            questionsList.questions.Add(new Question(GenerateQuestionString(phrase), answer));
         }
+
+        // write to JSON
+        string jsonString = JsonUtility.ToJson(questionsList);
+
+        StreamWriter outStream = System.IO.File.CreateText(Application.dataPath + "/TextAssets/Fill-Phrases.json");
+        outStream.WriteLine(jsonString);
+        outStream.Close();
     }
 }
